@@ -1,0 +1,10 @@
+{
+  "generator-sppp": {
+    "app.name": "code-review-randomizer",
+    "sppp.version": "2.1.9",
+    "app.description": "",
+    "app.author": "Denis Molodtsov",
+    "conf.spFolder": "_catalogs/masterpage/codeReview",
+    "conf.distFolder": "./dist"
+  }
+}

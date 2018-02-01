@@ -11,7 +11,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body ng-app="app" ng-controller="codeReviewController as vm">
@@ -39,19 +38,11 @@
             <li class="list-group-item" ng-cloak ng-repeat="pair in vm.pairs">{{pair.reviewer}}
                 <i class='fa fa-arrow-right'></i> {{pair.receiver}}</li>
         </ul>
-
         <div class="btn-container">
             <button class="btn btn-default" ng-click="vm.pair()">New pairs</button>
             <button class="btn btn-primary" ng-click="vm.save()">Save the pairs</button>
         </div>
-
-        
-
-
     </div>
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
@@ -63,11 +54,11 @@
     <footer class="footer">
         <div class="container">
             <div class="panel panel-default">
-                <div class="panel-body flex-container"> 
-                        Source code &nbsp;
+                <div class="panel-body flex-container">
+                    Source code &nbsp;
                     <a href="https://github.com/Zerg00s/codeReviewRandomizer/tree/master/dist" class="invertocat">
-                         <img alt="The GitHub Logo" src="github.png" width="24" height="24">
-                      </a>
+                        <img alt="The GitHub Logo" src="github.png" width="24" height="24">
+                    </a>
 
                 </div>
             </div>

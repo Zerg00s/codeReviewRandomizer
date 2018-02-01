@@ -16,9 +16,9 @@
         <h1 class="jumbotron text-center ">Code Reviews. Week {{vm.weeknumber}}</h1>
     </div>
     
-    <div class="container">
+    <div class="container"> 
         <div class="btn-container">
-            <button class="btn btn-default" ng-click="vm.pair()">New pair</button>
+            <button class="btn btn-default" ng-click="vm.pair()">New pairs</button>
             <button class="btn btn-primary" ng-click="vm.save()">Save the pair</button>
         </div>
         <div ng-show="vm.loading" class="sk-cube-grid">
@@ -37,7 +37,7 @@
         </ul>
 
         <div class="btn-container">
-                <button class="btn btn-default" ng-click="vm.pair()">New pair</button>
+                <button class="btn btn-default" ng-click="vm.pair()">New pairs</button>
                 <button class="btn btn-primary" ng-click="vm.save()">Save the pair</button>
             </div>
     </div>

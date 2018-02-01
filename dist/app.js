@@ -25,7 +25,7 @@
         systemStorage.ensureStorage();
         
 
-        vm.people = ['Denis', 'Suthan', 'Harpreet', 'Kevin', 'Jan', 'Ruby', 'Hasan'];
+        vm.people = ['Denis', 'Suthan', 'Harpreet', 'Kevin', 'Jan', 'Ruby', 'Hasan', 'Jesse'];
 
         vm.pair = function(){
             vm.pairs = pair(vm.people);

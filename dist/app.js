@@ -13,7 +13,7 @@
         var vm = this;
         vm.loading = true;
 
-        vm.weeknumber = moment(new Date(), "MM-DD-YYYY").week();
+        vm.weeknumber = moment(new Date()).week();
 
 
         var systemStorage = sp.getSystemStorage('CodeReview');
@@ -23,7 +23,6 @@
         });
 
         systemStorage.ensureStorage();
-        
 
         vm.people = ['Denis', 'Suthan', 'Harpreet', 'Kevin', 'Jan', 'Ruby', 'Hasan', 'Jesse'];
 
@@ -51,7 +50,7 @@
                     // Can't review  myself
                     recipientIndex = Math.floor(Math.random() * recipients.length);
                     if(counter > 180){
-                        // dead end, start anew:
+                        // dead end. Start anew:
                         return pair(arr);
                     }
                     counter++;
